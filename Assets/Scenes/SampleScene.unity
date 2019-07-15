@@ -3882,7 +3882,6 @@ GameObject:
   - component: {fileID: 525618896}
   - component: {fileID: 525618895}
   - component: {fileID: 525618894}
-  - component: {fileID: 525618900}
   m_Layer: 0
   m_Name: robo3
   m_TagString: Untagged
@@ -4016,21 +4015,6 @@ Transform:
   m_Father: {fileID: 1298190778}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &525618900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525618893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c778fe28038f60c4aaefc88b639203b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inimigo: {fileID: 1033407388}
-  largura: 0
-  altura: 0
 --- !u!4 &525836880 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7273892188217582693, guid: 16797c55948e0e1409053d9feca00be2,
@@ -7220,7 +7204,6 @@ GameObject:
   - component: {fileID: 985605278}
   - component: {fileID: 985605277}
   - component: {fileID: 985605276}
-  - component: {fileID: 985605282}
   m_Layer: 0
   m_Name: robo2
   m_TagString: Untagged
@@ -7354,21 +7337,6 @@ Transform:
   m_Father: {fileID: 1298190778}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &985605282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985605275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c778fe28038f60c4aaefc88b639203b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inimigo: {fileID: 1033407388}
-  largura: 0
-  altura: 0
 --- !u!4 &1003708043 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7273892188217582693, guid: 16797c55948e0e1409053d9feca00be2,
@@ -7501,7 +7469,6 @@ GameObject:
   - component: {fileID: 1038758068}
   - component: {fileID: 1038758067}
   - component: {fileID: 1038758066}
-  - component: {fileID: 1038758072}
   m_Layer: 0
   m_Name: robo4
   m_TagString: Untagged
@@ -7635,21 +7602,6 @@ Transform:
   m_Father: {fileID: 1298190778}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1038758072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038758065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c778fe28038f60c4aaefc88b639203b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inimigo: {fileID: 1033407388}
-  largura: 0
-  altura: 0
 --- !u!4 &1042858873 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7273892188217582693, guid: 16797c55948e0e1409053d9feca00be2,

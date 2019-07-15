@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class scriptScore : MonoBehaviour
+public class scriptScore2
+    : MonoBehaviour
 {
 
     private static int score=0;
