@@ -13,6 +13,7 @@ public class robo : MonoBehaviour
     private int index = 0;
     public float maxDist = 1;
     private bool perseguindo = false;
+
     void Start()
     {
         agente = GetComponent<NavMeshAgent>();
@@ -40,5 +41,22 @@ public class robo : MonoBehaviour
         else if (Vector3.Distance(transform.position, agente.destination) <= maxDist)
             proximo();
 
+    }
+    private void OnTriggerEnter3D(Collider col)
+    {
+        if (col.tag == "Player")
+        {
+            
+            scriptScore.addScore(10);
+            Destroy(col.gameObject);
+        }
+        else
+        {
+
+            scriptPlayerRiberinho script = col.GetComponent<scriptPlayerRiberinho>();
+            script.subtractLife(1);
+
+        }
+        Destroy(gameObject);
     }
 }
